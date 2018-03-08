@@ -1,12 +1,14 @@
 
-
 # IOWarrior Projekt
 
 ## How to run project
 
 1. download the i4k file and the Code
 2. export projekt as a jar file
-3. execute the following commands on the Command line:
+3. copy files of lib64 into "Persönlicher Ordner"
+4. Run Projekt on Console:
+
+To set the library path and run the projekt execute the following commands on the Command line:
 
 ```
 export LD_LIBRARY_PATH=/home/student/:$LD_LIBRARY_PATH
