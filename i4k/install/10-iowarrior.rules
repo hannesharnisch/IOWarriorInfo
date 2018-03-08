@@ -1,0 +1,6 @@
+# udev rules for iowarrior device nodes
+# getestet OpenSuse <= 12.3
+#SUBSYSTEM=="usb",KERNEL=="iowarrior[0-9]*",NAME="usb/iowarrior%n", GROUP="users",MODE="666",OPTIONS="last_rule"
+
+# getestet OpenSuse == 13.1 (64BIT)
+KERNEL=="iowarrior*", NAME="usb/iowarrior%n", GROUP="users", MODE="666"
