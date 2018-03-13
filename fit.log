@@ -1,0 +1,36 @@
+
+
+*******************************************************************************
+Tue Mar 13 17:16:57 2018
+
+
+FIT:    data read from "Kondensatorabfall.txt"
+        format = z
+        #datapoints = 81
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= a*exp(-(x/b))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.5393793801e+04   0.00e+00  4.32e+02    1.400000e+03   1.000000e+04
+   4 2.1582491238e+04  -2.69e-03  4.32e+02    1.358203e+03   1.112784e+04
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 21582.5
+rel. change during last iteration : -2.68671e-08
+
+degrees of freedom    (FIT_NDF)                        : 79
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 16.5286
+variance of residuals (reduced chisquare) = WSSR/ndf   : 273.196
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1358.2           +/- 6.748        (0.4968%)
+b               = 11127.8          +/- 80.96        (0.7275%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.696  1.000 
