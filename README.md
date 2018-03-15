@@ -47,7 +47,7 @@ Tau = 1 kg*m²*A²*s⁴/A²*s³*kg*m² = 1 s
 - 20% abweichung am Kondensator
 - 5% am Wiederstand
 
--
+--
 Fitting:
 
 - U0 1. Standardabweichung beträgt +/- 6.748
@@ -66,7 +66,7 @@ Unser Kondensator hat eine Genauigkeit von **20%** und unser Wiederstand von **5
 
 100µF + 20% = 100µF + 20µF = 120µF = **0.12F**
 
--
+--
 Tau = 105000Ω * 0.12F = **12600s**
 
 ### Min Rechnung:
