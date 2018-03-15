@@ -8,5 +8,7 @@ f(x)= a*exp(-(x/b))
 a=1400
 b=10000
 fit f(x) "Kondensatorabfall.txt" via a,b
-plot "Kondensatorabfall.txt" with linespoints title "Kondensatorspannungsabfall", f(x) title "Fitting Funktion: f(x)= a*exp(-(x/b))"
+g(x)= 1358.2*exp(-(x/7600))
+h(x)= 1358.2*exp(-(x/12600))
+plot "Kondensatorabfall.txt" with linespoints title "Kondensatorspannungsabfall", f(x) title "Fitting Funktion: f(x)= a*exp(-(x/b))" , g(x) title "Min Abweichung" , h(x) title "Max Abweichung"
 #############
