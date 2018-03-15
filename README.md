@@ -82,7 +82,7 @@ Tau = 105000Ω * 0.12F = **12600s**
 ---
 Tau = 95000Ω * 0.08F = **7600s**
 
-Unser gefittete wert ist 11127.8s und ist damit ein Guter Messwert da er zwischen den Ungenauigkeiten liegt:
+Unser gefittete wert ist 11127.8s und ist damit ein Guter Messwert da er zwischen dem Maximalen und Minimalen Wert liegt:
 
 ```
 12600s > 11127.8s > 7600s
