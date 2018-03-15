@@ -53,8 +53,8 @@ Fitting:
 - U0 1. Standardabweichung beträgt +/- 6.748
 - R*C 1. Standardabweichung beträgt +/- 80.96
 
-![Unser gemessener Kondensatorabfall](www.github.com/hannesharnisch/IOWarriorInfo/blob/master/Kondensatorabfall.png)
-### Maximum Rechnung:###
+![Unser gemessener Kondensatorabfall](https://github.com/hannesharnisch/IOWarriorInfo/blob/master/Kondensatorabfall.png)
+### Maximum Rechnung:
 ---
 Unser Kondensator hat eine Genauigkeit von **20%** und unser Wiederstand von **5%**
 
