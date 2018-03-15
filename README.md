@@ -26,8 +26,7 @@ or:
 /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -jar test.jar > Kondensatorabfall.txt
 ```
 
-Do this command to plot the graph with gnuplot.
-Open Gnuplot and load the script
+Then create a plotting gnuplot script that plots the data from this txt file. 
 
 
 ## Beweis Tau (RC) hat Einheit Sekunden
