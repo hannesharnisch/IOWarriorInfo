@@ -4,7 +4,7 @@ set xlabel "Zeit in ms"
 set ylabel "Spannung in mV"
 set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 ps 2   
 set style line 2 lc rgb '#dd181f' lt 1 lw 2 pt 7 ps 1
-set terminal png size 2000,1600 enhanced
+set terminal png size 2200,1600 enhanced font "Arial,20"
 set output 'KondensatorimAbweichungsbereich.png'
 g(x)= 1396.484375*exp(-(x/10000))
 f(x)= a*exp(-(x/b))
